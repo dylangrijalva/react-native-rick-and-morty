@@ -1,7 +1,6 @@
-import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { useMemo } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { useCharacter } from '../hooks';
-import ImageColors from 'react-native-image-colors';
 
 export function DetailScreen({ route, navigation }) {
   const id = route.params.id;
